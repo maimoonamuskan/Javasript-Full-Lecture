@@ -1,0 +1,41 @@
+.heading{
+    color: azure;
+    background-color:yellow;
+}
+h1{
+    color:blue;
+    background-color: aqua;
+}
+body{
+    background-color: blueviolet;
+}
+button{
+    background-color: palevioletred;
+}
+p{
+ background-color: aquamarine;
+}
+/* div{
+    background-color: skyblue;
+} */
+h5{
+    background-color: rgb(157, 134, 104);
+    text-decoration: solid;
+}
+/* .box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: beige;
+    text-align: center;
+} */
+#box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: beige;
+    text-align: center;
+}
+
