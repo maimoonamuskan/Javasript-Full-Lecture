@@ -16,7 +16,6 @@ for (let select of dropdowns) {
     let option = document.createElement("option");
     option.value = currCode;
     option.innerText = currCode;
-
     if (select.name === "from" && currCode === "USD") {
       option.selected = true;
     } else if (select.name === "to" && currCode === "PKR") {
@@ -25,7 +24,6 @@ for (let select of dropdowns) {
     select.append(option);
   }
   updateFlag(select);
-
   select.addEventListener("change", (evt) => {
     updateFlag(evt.target);
   });
