@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 
 AOS.init({
@@ -59,3 +60,8 @@ if (scrollBtn) {
 }
 
 
+=======
+//access by id
+let heading=document.getElementById("heading");
+console.dir(heading);
+>>>>>>> a463507062cf5f742dcce4afd8a4d4b77a75c6b0
